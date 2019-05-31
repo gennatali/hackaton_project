@@ -1,5 +1,5 @@
 {
-  "name": "gulp-starter-kit",
+  "name": "hackaton_projects",
   "version": "1.2.0",
   "description": "",
   "main": "index.js",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/axZerk/gulp-starter-kit.git"
+    "url": "git@github.com:gennatali/hackaton_project.git"
   },
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/axZerk/gulp-starter-kit/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/axZerk/gulp-starter-kit#readme",
+  "homepage": "",
   "devDependencies": {
     "@babel/core": "^7.3.4",
     "@babel/preset-env": "^7.3.4",
