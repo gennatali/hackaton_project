@@ -4,9 +4,26 @@
     }
 
     .header__burger {
-        visibility: hidden;
+        display: none;
     }
-    
+
+    .header__section {
+        display: flex;
+        position: relative;
+        left: 0;
+        top: 0;
+        transform: translate(0, 0);
+        z-index: 0;
+    }
+
+    .nav__list  {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .list__items    {
+        font-size: 18px;
+    }
 }
 
 

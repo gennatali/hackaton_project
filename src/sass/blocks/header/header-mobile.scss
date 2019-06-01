@@ -9,7 +9,7 @@
   padding: 16px 20px;
 }
 
-.header__logo {
+.logo {
   display: block;
   text-decoration: none;
 }
@@ -21,7 +21,7 @@
   margin-bottom: 272px;
 }
 
-.header__burger {
+.burger {
   display: block;
   margin: 0;
   border: 0;
@@ -62,9 +62,7 @@
 
 .nav__list-item :last-child {
   margin-bottom: 52px;
-
 }
-
 
 .list__items {
   position: relative;
@@ -83,11 +81,6 @@
   margin-top: 6px;
 }
 
-.header__button {
-  display: block;
-  margin: 0 auto;
-}
-
 .header-text {
   display: flex;
   flex-direction: column;
@@ -99,11 +92,6 @@
   padding: 20px;
   background-color: rgba(67, 55, 53, 0.5);
   margin-bottom: 60px;
-  transform: translateX()
-}
-
-.header-text__submain--golden {
-  color: $orange-light;
 }
 
 .header__scrolldown {
