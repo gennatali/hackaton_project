@@ -4,6 +4,7 @@
     padding-top: 116px;
     padding-bottom: 112px;
 
+
     &__text {
         font-size: 14px;
         color: #464646;
@@ -21,15 +22,17 @@
         top: -28px;
     }
 
-    &__img {
-        margin-bottom: 42px;
+    // &__img {
+    //     display: block;
+    //     // width: 100%;
+    //     margin-bottom: 42px;
+    // }
 
-        img {
+        .introduction-mobile {
             width: 100%;
             height: 320px;
             object-fit: cover;
         }
-    }
 
     &-text-wrapper {
         padding: 44px 26px 30px;
@@ -47,13 +50,18 @@
     }
 
     &__text-inner::before {
-    content: '';
-    position: absolute;
-    background-color: $orange-color;
-    display: block;
-    left: calc(50% - 30px);
-    top: -20px;
-    width: 60px;
-    height: 2px;
+        content: '';
+        position: absolute;
+        background-color: $orange-color;
+        display: block;
+        left: calc(50% - 30px);
+        top: -20px;
+        width: 60px;
+        height: 2px;
     }
+}
+
+.introduction-section__img {
+    display: block;
+    margin-bottom: 42px;
 }
