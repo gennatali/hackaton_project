@@ -1,8 +1,27 @@
-@media (min-width: 768px) {
+@media (min-width: 1300px) {
 
     .introduction-section {
         padding-top: 112px;
         padding-bottom: 116px;
+
+        &__text:first-child {
+            padding-top: 0;
+            margin: 0;
+        }
+
+        &-text-wrapper {
+            text-align: left;
+       }
+
+        &__wrapper {
+            display: flex;
+            align-items: center;
+            flex-direction: row-reverse;
+        }
+
+        &__img {
+        margin-right: 112px;
+        }
     }
 
 
