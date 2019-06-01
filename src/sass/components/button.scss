@@ -1,0 +1,18 @@
+.application {
+  width: 192px;
+  height: 42px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(246, 249, 250);
+  background-color: rgb(233, 172, 56);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px 0px rgba(233, 172, 56, 0.4);
+  cursor: pointer;
+}
+
+.application:hover {
+  background-color: rgb(220, 145, 41);
+  box-shadow: 0px 3px 5px 0px rgba(233, 172, 56, 0.8);
+  }
