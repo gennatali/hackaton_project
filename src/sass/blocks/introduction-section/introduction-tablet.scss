@@ -3,6 +3,11 @@
     .introduction-section {
         padding: 64px 34px 70px;
 
+        &__text {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
         &__text:first-child {
             position: relative;
         }
@@ -16,11 +21,11 @@
         }
 
         &-text-wrapper {
-            padding: 42px 76px 46px;
-            text-align: left;
+            padding: 44px 78px 44px;
         }
 
         &__text-inner {
+            font-size: 25px;
             position: relative;
         }
 
