@@ -19,13 +19,7 @@ html {
 }
 
 .container__wrapper {
-  min-width: 280px;
-
-  @media (min-width: 768px) {
-    min-width: 690px;
-  }
-
   @media (min-width: 1920px) {
-    min-width: 1300px;
+    max-width: 1300px;
   }
 }
