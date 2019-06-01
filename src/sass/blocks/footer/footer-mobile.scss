@@ -1,10 +1,10 @@
 .contact-information {
   padding: 42px 0 32px;
   background-color: $bg-footer-1;
-}
 
-.contact-information__wrapper {
-  padding-left: 45px;
+  &__wrapper {
+    padding-left: 45px;
+  }
 }
 
 .logo {
@@ -89,5 +89,15 @@
     font-size: 12px;
     line-height: 2;
     color: $copyright-color;
+  }
+}
+
+@media (min-width: 480px) {
+  .contact-information__inner {
+    display: flex;
+  }
+
+  .address {
+    margin-right: 44px;
   }
 }
