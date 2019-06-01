@@ -1,5 +1,5 @@
 .header {
-  position: relative;
+//   position: relative;
   background-image: url('../../../images/background_320.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -7,6 +7,10 @@
   min-width: 320px;
   min-height: 560px;
   padding: 16px 40px 40px;
+}
+
+.header_main-wrapper    {
+    position: relative;
 }
 
 .logo {

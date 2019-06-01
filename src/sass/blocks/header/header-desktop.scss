@@ -9,16 +9,18 @@
         display: none;
     }
 
-    .header__section {
-        position: absolute;
+    .header__main-wrapper   {
         display: flex;
-        left: 50%;
-        top: 0;
-        transform: translate(-40%, 32%);
-        z-index: 0;
+        justify-content: space-between;
     }
 
-    nav {
+    .header__section    {
+        position: static;
+        display: flex;
+        transform: none;
+    }
+
+    .nav {
         min-width: 782px;
         margin-right: 30px;
     }
@@ -32,8 +34,7 @@
     }
 
     .button--desktop    {
-        position: relative;
-        transform: translateY(10%);
+        transform: translateY(-20%);
     }
 }
 
