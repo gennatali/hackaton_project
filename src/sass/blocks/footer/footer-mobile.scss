@@ -1,15 +1,5 @@
-.container {
-  min-width: 320px;
-}
-
-.wrapper {
-  width: 280px;
-  margin: 0 auto;
-  padding-left: 44px;
-}
-
 .contact-information {
-  background-color: $bg-light-grey;
+  background-color: $bg-footer-1;
   padding: 42px 44px 32px;
 }
 
@@ -18,6 +8,13 @@
   margin-bottom: 18px;
 }
 
+address {
+  font-family: $additional-font;
+  font-size: 14px;
+  color: $contacts-color;
+}
+
 .copyright {
-  background-color: $bg-dark-grey;
+  padding: 18px 0;
+  background-color: $bg-footer-2;
 }
