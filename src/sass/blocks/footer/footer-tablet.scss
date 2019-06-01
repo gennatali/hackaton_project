@@ -1,3 +1,43 @@
 @media (min-width: 768px) {
+  .contact-information {
+    padding: 55px 0 36px;
+  }
 
+  .contact-information__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 34px;
+  }
+
+  .contact-information__inner {
+    margin-right: 44px;
+  }
+
+  .logo {
+    flex-basis: 100%;
+  }
+
+  .address {
+    margin-bottom: 0;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .copyright__wrapper {
+    padding-left: 34px;
+  }
+
+  .copyright__list {
+    display: flex;
+  }
+  .copyright__list-item {
+    margin-right: 38px;
+  }
+  .copyright__list-item:last-child {
+    margin-right: 0;
+  }
 }
