@@ -8,21 +8,17 @@
     width: 454px;
   }
 
-  .article__wrapper {
-      display: flex;
+  .structure-section__article {
+    flex-basis: 300px;
+    margin: 0;
   }
 
   .structure-section__article {
-    // position: relative;
-    // display: block;
-    // padding: 56px 52px 60px 45px;
-    margin: 15px;
-    flex-basis: 300px;
-    // flex-basis: calc(50% - 30px);
-
-    // &-wrapper {
-    //   display: flex;
-    //   flex-wrap: wrap;
-    //   margin: -11px;
-    }
+    margin-right: 20px;
   }
+
+  .structure-section__article:last-child  {
+    margin-right: 0;
+  }
+
+}
