@@ -23,6 +23,7 @@
 
 .burger {
   display: block;
+  cursor: pointer;
   margin: 0;
   border: 0;
   width: 40px;
@@ -35,7 +36,7 @@
   display: block;
   width: 30px;
   height: 2px;
-  background: $darken-grey;
+  background: $white-color;
   margin-bottom: 5px;
 }
 
