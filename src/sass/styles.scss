@@ -3,6 +3,28 @@
 */
 @import './normalize';
 @import './fonts';
+<<<<<<< HEAD
 @import './helpers/variables';
 @import './components/button';
 @import './blocks/footer/index';
+=======
+
+// HELPERS
+@import './helpers/variables';
+@import './helpers/base';
+
+// COMPONENTS
+@import './components/button';
+@import './components/typography';
+@import './components/section-icons';
+
+// BLOCKS
+@import './blocks/header/index';
+@import './blocks/introduction-section/index';
+@import './blocks/directions-section/index';
+@import './blocks/how-study-section/index';
+@import './blocks/structure-section/index';
+@import './blocks/footer/index';
+
+
+>>>>>>> master
