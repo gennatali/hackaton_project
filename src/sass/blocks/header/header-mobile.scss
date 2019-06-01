@@ -6,7 +6,7 @@
   background-size: cover;
   min-width: 320px;
   height: 560px;
-  padding: 16px 20px;
+  padding: 16px 40px 40px;
 }
 
 .logo {
@@ -88,6 +88,10 @@
   align-items: center;
 }
 
+.main-title--color  {
+    color: $white-color;
+}
+
 .header-text__submain {
   display: inline-block;
   padding: 20px;
@@ -99,6 +103,6 @@
   position: absolute;
   left: 50%;
   bottom: 0;
-  transform: translate(-50%, -50%);
+  transform: translate(50%, 100%);
   margin-bottom: 50px;
 }
