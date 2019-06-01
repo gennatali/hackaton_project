@@ -4,3 +4,28 @@ html {
   font-style: normal;
   font-weight: 400;
 }
+
+.container {
+  min-width: 320px;
+
+  @media (min-width: 768px) {
+    min-width: 768px;
+  }
+
+  @media (min-width: 1920px) {
+    min-width: 1920px;
+  }
+
+}
+
+.container__wrapper {
+  min-width: 280px;
+
+  @media (min-width: 768px) {
+    min-width: 690px;
+  }
+
+  @media (min-width: 1920px) {
+    min-width: 1300px;
+  }
+}
