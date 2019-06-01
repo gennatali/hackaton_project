@@ -3,9 +3,6 @@
 */
 @import './normalize';
 @import './fonts';
-@import  './components/header/header-mobile';
-@import  './components/header/header-tablet';
-@import  './components/header/header-desktop';
-
 @import './helpers/button';
+@import './blocks/header/index';
 @import './components/footer/index';
