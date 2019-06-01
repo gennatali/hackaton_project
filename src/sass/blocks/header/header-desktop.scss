@@ -1,21 +1,27 @@
 @media  (min-width: 1300px) {
     .header {
+        position: relative;
         background-image: url('../../../images/background_1300.jpg');
+        padding-top: 40px;
     }
 
-    .header__burger {
+    .burger {
         display: none;
     }
 
     .header__section {
+        position: absolute;
         display: flex;
-        position: relative;
-        left: 0;
+        left: 50%;
         top: 0;
-        transform: translate(0, 0);
+        transform: translate(-40%, 32%);
         z-index: 0;
     }
 
+    nav {
+        min-width: 782px;
+        margin-right: 30px;
+    }
     .nav__list  {
         display: flex;
         justify-content: space-between;
@@ -23,6 +29,11 @@
 
     .nav__list-link    {
         font-size: 18px;
+    }
+
+    .button--desktop    {
+        position: relative;
+        transform: translateY(10%);
     }
 }
 
