@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-bottom: 10px;
 }
 
 .structure-section__title {
@@ -20,7 +21,7 @@
 }
 
 .icon-point {
-  background-image: url(../../../images/sections-icon/third-point-icon.png);
+  background-image: url("../../../images/sections-icon/third-point-icon.png");
 }
 
 .structure-section__article {
@@ -28,10 +29,11 @@
   width: 280px;
   height: 260px;
   border-radius: 0 10%;
+  margin-bottom: 16px;
 }
 
-.article-wrapper {
-  padding-bottom: 16px;
+.structure-section__article:last-child {
+  margin: 0;
 }
 
 .structure-section {
