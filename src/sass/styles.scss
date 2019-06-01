@@ -7,12 +7,11 @@
 // HELPERS
 @import './helpers/base';
 @import './helpers/variables';
-@import './helpers/button';
-@import './helpers/section-icons';
 
 // COMPONENTS
 @import './components/button';
 @import './components/typography';
+@import './components/section-icons';
 
 // BLOCKS
 @import './blocks/header/index';
