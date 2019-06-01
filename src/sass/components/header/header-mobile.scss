@@ -5,7 +5,7 @@ a {
 .header {
     position: relative;
     // display: flex;
-    background-image: url(../../../images/background_320.png);
+    background-image: url(../../../images/background_320.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -15,21 +15,21 @@ a {
     padding-left: 20px;
 }
 
-.header_frist-wrapper  {
+.header__frist-wrapper  {
     position: sticky;
     margin-bottom: 272px;
 }
 
-.header_burger  {
+.header__burger  {
     display: block;
     width: 30px;
     height: 2px;
     background: #000;
 }
 
-.burger_lines
+.burger__lines
 
-.header_hidden {
+.header__hidden {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -37,12 +37,12 @@ a {
     z-index: 2;
 }
 
-.nav_list   {
+.nav__list   {
     list-style: none;
     margin-bottom: 26px;
 }
 
-.nav_list:last-child    {
+.nav__list:last-child    {
     margin-bottom: 52px;
 }
 
@@ -50,17 +50,17 @@ a {
     text-align: center;
 }
 
-.list_items   {
+.list__items   {
     position: relative;
     font-size: 25px;
     color: white;
 }
 
-.list_items:hover  {
+.list__items:hover  {
     position:  relative;
 }
 
-.list_items:hover::after {
+.list__items:hover::after {
     content: '';
     position: absolute;
     background-color: rgba(233, 172, 56, 1);
@@ -71,27 +71,27 @@ a {
     margin-top: 6px;
 }
 
-.header_application   {
+.header__application   {
     display: block;
     margin: 0 auto;
 }
 
-.header-text_main   {
+.header-text__main   {
     font-size: 35px;
     color: white;
 }
 
-.header-text_submain    {
+.header-text__submain    {
     display: inline-block;
     background-color: rgba(67, 55, 53, 0.5);
     color: white;
 }
 
-.header-text_submain--golden    {
+.header-text__submain--golden    {
     color: #e9ac38;
 }
 
-.header_scrolldown  {
+.header__scrolldown  {
     position: absolute;
     left: 50%;
     bottom: 0;
