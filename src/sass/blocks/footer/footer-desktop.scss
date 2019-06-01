@@ -1,3 +1,37 @@
 @media (min-width: 1300px) {
+  .contact-information {
+    padding: 55px 0 60px;
+  }
 
+  .contact-information__wrapper {
+    padding-left: 0;
+  }
+
+  .address {
+    margin-right: 142px;
+  }
+
+  .contact-information__inner {
+    margin-right: 160px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer-button {
+    margin-right: 162px;
+  }
+
+  .copyright__wrapper {
+    padding-left: 0;
+  }
+
+  .copyright__list-item {
+    margin-right: 76px;
+  }
+  .copyright__list-item:last-child {
+    margin-right: 0;
+  }
 }
