@@ -1,12 +1,28 @@
-html {
+* {
   box-sizing: border-box;
+}
+
+html {
   color: $main-color;
   font-style: normal;
   font-weight: 400;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .container {
   min-width: 320px;
+}
+
+.container__wrapper {
   padding: 0 20px;
 
   @media (min-width: 768px) {
@@ -14,12 +30,7 @@ html {
   }
 
   @media (min-width: 1920px) {
-    padding: 0 310px;
-  }
-}
-
-.container__wrapper {
-  @media (min-width: 1920px) {
     max-width: 1300px;
+    padding: 0 310px;
   }
 }
