@@ -1,18 +1,16 @@
-.application {
+.button {
   width: 192px;
   height: 42px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: $main-font;
   font-size: 16px;
   font-weight: 700;
-  color: rgb(246, 249, 250);
-  background-color: rgb(233, 172, 56);
+  color: $button-text;
+  background-color: $bg-button;
   border: none;
   border-radius: 5px;
-  box-shadow: 0px 3px 5px 0px rgba(233, 172, 56, 0.4);
   cursor: pointer;
 }
 
-.application:hover {
-  background-color: rgb(220, 145, 41);
-  box-shadow: 0px 3px 5px 0px rgba(233, 172, 56, 0.8);
-  }
+.button:hover {
+  background-color: $bg-button-hover;
+}
