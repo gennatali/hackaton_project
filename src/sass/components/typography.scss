@@ -1,0 +1,65 @@
+// FONTS
+
+.main-title {
+  font-family: $main-font;
+  font-weight: 800;
+  font-size: 35px;
+
+  @media (min-width: 768px) {
+    font-size: 45px;
+  }
+
+  @media (min-width: 1300px) {
+    font-size: 65px;
+  }
+}
+
+.section-title {
+  font-family: $main-font;
+  font-weight: 700;
+  font-size: 20px;
+
+  @media (min-width: 768px) {
+    font-size: 33px;
+  }
+}
+
+.section-subtitle {
+  font-family: $additional-font;
+  font-weight: 700;
+  font-size: 25px;
+
+  @media (min-width: 768px) {
+    font-size: 30px;
+  }
+}
+
+.section-text {
+  font-family: $additional-font;
+}
+
+// TEXT-COLOR
+
+.text-main {
+  color: $main-color;
+}
+
+.text-light {
+  color: $white-color;
+}
+
+.text-highlighted {
+  color: $orange-color;
+}
+
+.title-dark-grey {
+  color: $dark-grey;
+}
+
+.text-light-grey {
+  color: $light-grey;
+}
+
+.text-grey {
+  color: $medium-grey;
+}
