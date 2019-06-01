@@ -19,6 +19,10 @@
   font-style: normal;
   line-height: 1.8;
   color: $contacts-color;
+}
+
+.contacts {
+  margin-bottom: 34px;
 
   &__mail, &__tel {
     display: block;
@@ -27,10 +31,6 @@
     line-height: 1.8;
     color: $contacts-color;
   }
-}
-
-.contacts {
-  margin-bottom: 34px;
 }
 
 .button {
