@@ -4,7 +4,7 @@
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 800;
-  font-size: 14px;
+  font-size: 35px;
 }
 
 .section-title {
@@ -35,33 +35,18 @@
   font-size: 18px;
 }
 
-.direction-text {
+.direction-text,
+.structure-text {
   font-size: 16px;
 }
 
+.how-study-text,
+.footer-text {
+  font-size: 14px;
+}
 
-@media (min-width: 768px) {
-  .main-title {
-    font-size: 18px;
-  }
-
-  .section-title {
-    font-size: 33px;
-  }
-
-  .section-subtitle {
-    font-size: 30px;
-  }
-
-  .introduction-grey-text {
-    font-size: 18px;
-  }
-
-  .introduction-light-text {
-    font-size: 20px;
-  }
-
-
+.footer-bottom-text {
+  font-size: 12px;
 }
 
 // TEXT-COLOR
@@ -88,4 +73,64 @@
 
 .text-grey {
   color: $medium-grey;
+}
+
+// MEDIA
+
+
+@media (min-width: 768px) {
+  .main-title {
+    font-size: 45px;
+  }
+
+  .section-title {
+    font-size: 33px;
+  }
+
+  .section-subtitle {
+    font-size: 30px;
+  }
+
+  .introduction-grey-text {
+    font-size: 18px;
+  }
+
+  .introduction-light-text {
+    font-size: 20px;
+  }
+
+  .how-study-text {
+    font-size: 16px;
+  }
+
+  .footer-bottom-text {
+    font-size: 14px;
+  }
+
+}
+
+
+@media (min-width: 1300px) {
+  .main-title {
+    font-size: 65px;
+  }
+
+  .introduction-grey-text {
+    font-size: 20px;
+  }
+
+  .introduction-light-text {
+    font-size: 25px;
+  }
+
+  .direction-text,
+  .how-study-text,
+  .structure-text {
+    font-size: 18px;
+  }
+
+  .footer-bottom-text {
+    font-size: 12px;
+  }
+
 }
