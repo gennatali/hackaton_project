@@ -1,0 +1,20 @@
+.contact-information {
+  background-color: $bg-footer-1;
+  padding: 42px 44px 32px;
+}
+
+.logo {
+  display: inline-block;
+  margin-bottom: 18px;
+}
+
+address {
+  font-family: $additional-font;
+  font-size: 14px;
+  color: $contacts-color;
+}
+
+.copyright {
+  padding: 18px 0;
+  background-color: $bg-footer-2;
+}

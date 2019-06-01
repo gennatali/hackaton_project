@@ -4,3 +4,22 @@ html {
   font-style: normal;
   font-weight: 400;
 }
+
+.container {
+  min-width: 320px;
+  padding: 0 20px;
+
+  @media (min-width: 768px) {
+    padding: 0 40px;
+  }
+
+  @media (min-width: 1920px) {
+    padding: 0 310px;
+  }
+}
+
+.container__wrapper {
+  @media (min-width: 1920px) {
+    max-width: 1300px;
+  }
+}

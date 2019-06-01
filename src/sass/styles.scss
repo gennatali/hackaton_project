@@ -5,8 +5,8 @@
 @import './fonts';
 
 // HELPERS
-@import './helpers/base';
 @import './helpers/variables';
+@import './helpers/base';
 
 // COMPONENTS
 @import './components/button';
@@ -20,5 +20,3 @@
 @import './blocks/how-study-section/index';
 @import './blocks/structure-section/index';
 @import './blocks/footer/index';
-
-
