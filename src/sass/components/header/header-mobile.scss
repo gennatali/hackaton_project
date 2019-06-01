@@ -1,10 +1,24 @@
-.logo_image    {
-    display: block;
-    width: 140px;
-    height: 30px;
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* a {
+    text-decoration: none;
+}
+
+.header {
+    // display: flex;
+    background-image: url(../../../images/background_320.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 767px;
+    max-height: 560px;
 }
 
 
-.nav_list   {
-    color: red;
-}
+
+
+
