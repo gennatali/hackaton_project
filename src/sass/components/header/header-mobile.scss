@@ -27,8 +27,13 @@
 }
 
 .header_burger  {
-    
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: #000;
 }
+
+.burger_lines
 
 .header_hidden {
     position: absolute;
