@@ -1,6 +1,10 @@
 .contact-information {
+  padding: 42px 0 32px;
   background-color: $bg-footer-1;
-  padding: 42px 44px 32px;
+
+  &__wrapper {
+    padding-left: 45px;
+  }
 }
 
 .logo {
@@ -8,13 +12,92 @@
   margin-bottom: 18px;
 }
 
-address {
-  font-family: $additional-font;
+.address {
+  margin-bottom: 28px;
+  font-weight: 400;
   font-size: 14px;
+  font-style: normal;
+  line-height: 1.8;
   color: $contacts-color;
 }
 
+.contacts {
+  margin-bottom: 34px;
+
+  &__mail, &__tel {
+    display: block;
+    font-family: $additional-font;
+    font-size: 14px;
+    line-height: 1.8;
+    color: $contacts-color;
+  }
+}
+
+.button {
+  margin-bottom: 22px;
+}
+
+.social {
+  display: flex;
+
+  &__list-item {
+    margin-right: 17px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 19px;
+  }
+
+  &__icon {
+    fill: $svg-color;
+  }
+}
+
+.telegram {
+  background-color: $blue;
+}
+
+.facebook {
+  background-color: $dark-blue;
+}
+
+.youtube {
+  background-color: $red;
+}
+
 .copyright {
-  padding: 18px 0;
+  padding: 22px 0;
   background-color: $bg-footer-2;
+
+  &__wrapper {
+    padding-left: 45px;
+  }
+
+  &__link {
+    display: block;
+    font-family: $main-font;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 2;
+    color: $copyright-color;
+  }
+}
+
+@media (min-width: 480px) {
+  .contact-information__inner {
+    display: flex;
+  }
+
+  .address {
+    margin-right: 44px;
+  }
 }
