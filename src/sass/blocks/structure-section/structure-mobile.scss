@@ -1,8 +1,9 @@
-.structure-section__icon-title {
+.structure-section__title-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-bottom: 10px;
+  width: 280px;
 }
 
 .structure-section__title {
@@ -30,6 +31,22 @@
   height: 260px;
   border-radius: 0 10%;
   margin-bottom: 16px;
+
+  &:nth-child(2n) {
+    background-color: #fcf1de;
+  }
+
+  &:nth-child(2n+1) {
+    background-color: #ffddd3;
+  }
+
+  &:nth-last-child(2) {
+    background-color: #e7d9f6;
+  }
+
+  &:last-child {
+    background-color: #baebe9;
+  }
 }
 
 .structure-section__article:last-child {
@@ -39,22 +56,6 @@
 .structure-section {
   padding-bottom: 60px;
 }
-
-.structure-section__article--color-first {
-  background-color: #fcf1de;
-}
-
-.structure-section__article--color-second {
-  background-color: #ffddd3;
-} 
-
-.structure-section__article--color-third {
-  background-color: #e7d9f6;
-}
-
-.structure-section__article--color-forth {
-  background-color: #baebe9;
-} 
 
 .structure-section__article {
   position: relative;
