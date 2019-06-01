@@ -1,0 +1,10 @@
+.introduction-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 116px 0 112px;
+
+    &__text {
+        font-size: 14px;
+    }
+}
