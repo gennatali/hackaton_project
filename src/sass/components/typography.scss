@@ -4,18 +4,21 @@
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 800;
+  font-size: 14px;
 }
 
 .section-title {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
+  font-size: 20px;
 }
 
 .section-subtitle {
   font-family: 'Ubuntu', sans-serif;
   font-style: normal;
   font-weight: 700;
+  font-size: 25px;
 }
 
 .section-text {
@@ -24,10 +27,47 @@
   font-weight: 400;
 }
 
+.introduction-grey-text {
+  font-size: 14px;
+}
+
+.introduction-light-text {
+  font-size: 18px;
+}
+
+.direction-text {
+  font-size: 16px;
+}
+
+
+@media (min-width: 768px) {
+  .main-title {
+    font-size: 18px;
+  }
+
+  .section-title {
+    font-size: 33px;
+  }
+
+  .section-subtitle {
+    font-size: 30px;
+  }
+
+  .introduction-grey-text {
+    font-size: 18px;
+  }
+
+  .introduction-light-text {
+    font-size: 20px;
+  }
+
+
+}
+
 // TEXT-COLOR
 
 .text-main {
-    color: $main-color;
+  color: $main-color;
 }
 
 .text-light {
@@ -38,14 +78,14 @@
   color: $orange-color;
 }
 
-.title-grey {
-    color: $dark-grey;
+.title-dark-grey {
+  color: $dark-grey;
 }
 
-.footer-text {
-    color: $light-grey;
+.text-light-grey {
+  color: $light-grey;
 }
 
-.bottom-text {
-    color: $medium-grey;
+.text-grey {
+  color: $medium-grey;
 }
