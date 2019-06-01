@@ -1,0 +1,51 @@
+// FONTS
+
+.main-title {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.section-title {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.section-subtitle {
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.section-text {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+}
+
+// TEXT-COLOR
+
+.text-main {
+    color: $main-color;
+}
+
+.text-light {
+  color: $white-color;
+}
+
+.text-highlighted {
+  color: $orange-color;
+}
+
+.title-grey {
+    color: $dark-grey;
+}
+
+.footer-text {
+    color: $light-grey;
+}
+
+.bottom-text {
+    color: $medium-grey;
+}
