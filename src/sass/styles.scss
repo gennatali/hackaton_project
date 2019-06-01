@@ -2,8 +2,8 @@
    Import partials below
 */
 @import './normalize';
-<<<<<<< HEAD
 @import './fonts';
-=======
-@import './fonts';
->>>>>>> f9c483ebf82468aea662a7bc350cf79f7ed20428
+@import './helpers/button';
+@import './components/footer/footer-mobile';
+@import './components/footer/footer-tablet';
+@import './components/footer/footer-desktop';
