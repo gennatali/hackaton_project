@@ -2,9 +2,7 @@
     &__title-wrapper {
         display: flex;
         align-items: center;
-        justify-content: space-between;
         padding-bottom: 30px;
-        width: 270px;
     }
 
     &__title {
@@ -12,6 +10,7 @@
         position: relative;
         display: inline-block;
         margin: 0;
+        margin-left: 10px;
     }
 
     &__icon-point {
@@ -25,6 +24,8 @@
         background-color: #fafafa;
         padding: 34px 44px;
         margin-bottom: 10px;
+        transform: translate(0);
+        transition: transform 200ms linear;
     }
 
     &-subtitle {
@@ -61,5 +62,23 @@
         text-decoration: underline;
         line-height: 1.692;
         transform: translateY(-100%);
+    }
+
+    &-article:hover {
+        background-color: $orange-light;
+        box-shadow: 1.5px 2.598px 8px 0px rgba(1, 1, 1, 0.1);
+        transform: translate(0, 4%);
+    }
+
+    &-article:hover &__section-text {
+        color: $white-color;
+    }
+    
+    &-article:hover &__text-inner {
+        color: $white-color;
+    }
+
+    &-article:hover &__link {
+        background-image: url(../images/sections-icon/short-white-arrow.png);
     }
 }
