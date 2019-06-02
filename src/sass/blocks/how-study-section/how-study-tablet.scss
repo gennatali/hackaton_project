@@ -17,7 +17,7 @@
     margin-bottom: 22px;
 
     &--bulb {
-      background-image: url(../../../images/sections-icon/green-bulb.png);
+      background-image: url("../images/sections-icon/green-bulb.png");
       background-color: #dfeeec;
     }
   }
@@ -47,7 +47,7 @@
 
 @media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 192dpi) {
   .how-study__icon--bulb {
-    background-image: url('../../../images/sections-icon/green-bulb@2x.png');
+    background-image: url("../images/sections-icon/green-bulb@2x.png");
   }
 }
 

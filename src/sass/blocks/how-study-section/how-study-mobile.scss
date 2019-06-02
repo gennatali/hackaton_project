@@ -18,7 +18,7 @@
 }
 
 .second-point-icon {
-  background-image: url("../../../images/sections-icon/second-point-icon.png");
+  background-image: url("../images/sections-icon/second-point-icon.png");
   background-position: center;
 }
 
@@ -47,38 +47,38 @@
   background-size: 34px;
 
   &--globe {
-    background-image: url(../../../images/sections-icon/globe.png);
+    background-image: url("../images/sections-icon/globe.png");
     background-color: #fbeed7;
   }
 
   &--hands {
-    background-image: url(../../../images/sections-icon/hands.png);
+    background-image: url("../images/sections-icon/hands.png");
     background-color: #f8e0d7;
   }
 
   &--peace {
-    background-image: url(../../../images/sections-icon/peace.png);
+    background-image: url("../images/sections-icon/peace.png");
     background-color: #e3dcf8;
     background-size: 26px;
   }
 
   &--money {
-    background-image: url(../../../images/sections-icon/money.png);
+    background-image: url("../images/sections-icon/money.png");
     background-color: #dfeeec;
   }
 
   &--bulb {
-    background-image: url(../../../images/sections-icon/bulb.png);
+    background-image: url("../images/sections-icon/bulb.png");
     background-color: #e3dcf8;
   }
 
   &--folder {
-    background-image: url(../../../images/sections-icon/folder.png);
+    background-image: url("../images/sections-icon/folder.png");
     background-color: #f8e0d7;
   }
 
   &--goal {
-    background-image: url(../../../images/sections-icon/goal.png);
+    background-image: url("../images/sections-icon/goal.png");
     background-color: #fbeed7;
   }
 }
@@ -91,44 +91,44 @@
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .second-point-icon {
-    background-image: url("../../../images/sections-icon/second-point-icon@2x.png");
+    background-image: url("../images/sections-icon/second-point-icon@2x.png");
   }
 
   .how-study__icon {
     background-size: 34px;
 
     &--globe {
-      background-image: url(../../../images/sections-icon/globe@2x.png);
+      background-image: url("../images/sections-icon/globe@2x.png");
     }
 
     &--hands {
-      background-image: url(../../../images/sections-icon/hands@2x.png);
+      background-image: url("../images/sections-icon/hands@2x.png");
     }
 
     &--peace {
-      background-image: url(../../../images/sections-icon/peace@2x.png);
+      background-image: url("../images/sections-icon/peace@2x.png");
       background-size: 26px;
     }
 
     &--peace {
-      background-image: url(../../../images/sections-icon/peace@2x.png);
+      background-image: url("../images/sections-icon/peace@2x.png");
       background-size: 26px;
     }
 
     &--money {
-      background-image: url(../../../images/sections-icon/money@2x.png);
+      background-image: url("../images/sections-icon/money@2x.png");
     }
 
     &--bulb {
-      background-image: url(../../../images/sections-icon/bulb@2x.png);
+      background-image: url("../images/sections-icon/bulb@2x.png");
     }
 
     &--folder {
-      background-image: url(../../../images/sections-icon/folder@2x.png);
+      background-image: url("../images/sections-icon/folder@2x.png");
     }
 
     &--goal {
-      background-image: url(../../../images/sections-icon/goal@2x.png);
+      background-image: url("../images/sections-icon/goal@2x.png");
     }
   }
 }
