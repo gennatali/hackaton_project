@@ -19,7 +19,7 @@
   transition: background-color 200ms linear;
 
   &__icon {
-    fill: #fff;
+    fill: $white-color;
   }
 
   &:hover, &:focus {
