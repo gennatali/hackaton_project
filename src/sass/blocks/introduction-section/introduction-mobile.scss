@@ -16,7 +16,7 @@
     }
 
     &__text:first-child::before {
-        content: url('../../../images/sections-icon/“.png');
+        content: url('../images/sections-icon/“.png');
         position: absolute;
         display: block;
         top: -28px;
