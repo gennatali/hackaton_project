@@ -1,15 +1,22 @@
+.structure-section {
+  padding-bottom: 60px;
+}
+
 .structure-section__title-wrapper {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding-bottom: 10px;
-  width: 280px;
+  margin-bottom: 27px;
 }
 
 .structure-section__title {
   text-transform: uppercase;
   position: relative;
   display: inline-block;
+  margin: 0;
+}
+
+.structure-section__icon {
+  margin-right: 10px;
 }
 
 .structure-section__subtitle,
@@ -23,6 +30,12 @@
 
 .icon-point {
   background-image: url("../../../images/sections-icon/third-point-icon.png");
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .icon-point {
+    background-image: url("../../../images/sections-icon/third-point-icon@2x.png");
+  }
 }
 
 .structure-section__article {
@@ -48,10 +61,6 @@
   &:last-of-type {
     background-color: #baebe9;
   }
-}
-
-.structure-section {
-  padding-bottom: 60px;
 }
 
 .structure-section__article::before {
