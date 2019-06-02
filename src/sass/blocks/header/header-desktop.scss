@@ -54,4 +54,24 @@
   .button--desktop {
     margin: 0;
   }
+
+  .header-text {
+    align-items: flex-start;
+    margin-left: 170px;
+  }
+
+  .header-text__submain {
+    position: relative;
+  }
+
+  .header-text__submain::before {
+    content: '';
+    background-color: rgb(252, 174, 38);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 2px;
+    height: 63px;
+    transform: translate(500%,-10%);
+  }
 }
