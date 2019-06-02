@@ -1,0 +1,46 @@
+@media (min-width: 768px) {
+    .introduction-section {
+        padding: 64px 34px 70px;
+
+        &__text {
+            font-size: 18px;
+        }
+
+        &__text:first-child {
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        &__text:first-child::before {
+            position: absolute;
+            display: block;
+            top: -28px;
+            left: -34px;
+        }
+
+        &__wrapper {
+            margin-bottom: 114px;
+        }
+
+        &-text-wrapper {
+            padding: 44px 78px;
+            text-align: left;
+        }
+
+        &__text-inner {
+            font-size: 25px;
+            line-height: 1.4;
+            position: relative;
+        }
+
+        &__text-inner::before {
+            content: '';
+            position: absolute;
+            width: 2px;
+            height: 100px;
+            left: -24px;
+            top: calc(50% - 50px);
+        }
+
+    }
+}

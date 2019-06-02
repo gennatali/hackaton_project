@@ -1,0 +1,28 @@
+@media (min-width: 768px) {
+  .structure-section {
+    padding-bottom: 75px;
+  }
+
+  .structure-section__title-wrapper {
+    padding-bottom: 55px;
+    width: 448px;
+  }
+
+  .icon__inner--large {
+    background-image: url("../../../images/sections-icon/third-point-icon@2x.png");
+  }
+
+  .structure-section__article {
+    position: relative;
+    display: block;
+    padding: 56px 52px 60px 45px;
+    margin: 11px;
+    flex-basis: calc(50% - 22px);
+
+    &-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      margin: -11px;
+    }
+  }
+}
