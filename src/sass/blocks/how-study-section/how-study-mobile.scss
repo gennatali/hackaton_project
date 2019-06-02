@@ -1,0 +1,134 @@
+.title-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 27px;
+}
+
+.how-study {
+  padding-bottom: 58px;
+
+  &__title {
+    margin: 0;
+    text-transform: uppercase;
+  }
+}
+
+.section-icon {
+  margin-right: 10px;
+}
+
+.second-point-icon {
+  background-image: url("../../../images/sections-icon/second-point-icon.png");
+  background-position: center;
+}
+
+.how-study__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 45px;
+}
+
+.how-study__list-item {
+  margin-bottom: 30px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.how-study__icon {
+  width: 55px;
+  height: 55px;
+  margin-bottom: 16px;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 34px;
+
+  &--globe {
+    background-image: url(../../../images/sections-icon/globe.png);
+    background-color: #fbeed7;
+  }
+
+  &--hands {
+    background-image: url(../../../images/sections-icon/hands.png);
+    background-color: #f8e0d7;
+  }
+
+  &--peace {
+    background-image: url(../../../images/sections-icon/peace.png);
+    background-color: #e3dcf8;
+    background-size: 26px;
+  }
+
+  &--money {
+    background-image: url(../../../images/sections-icon/money.png);
+    background-color: #dfeeec;
+  }
+
+  &--bulb {
+    background-image: url(../../../images/sections-icon/bulb.png);
+    background-color: #e3dcf8;
+  }
+
+  &--folder {
+    background-image: url(../../../images/sections-icon/folder.png);
+    background-color: #f8e0d7;
+  }
+
+  &--goal {
+    background-image: url(../../../images/sections-icon/goal.png);
+    background-color: #fbeed7;
+  }
+}
+
+.how-study__description {
+  margin: 0;
+  color: #464646;
+  font-size: 14px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .second-point-icon {
+    background-image: url("../../../images/sections-icon/second-point-icon@2x.png");
+  }
+
+  .how-study__icon {
+    background-size: 34px;
+
+    &--globe {
+      background-image: url(../../../images/sections-icon/globe@2x.png);
+    }
+
+    &--hands {
+      background-image: url(../../../images/sections-icon/hands@2x.png);
+    }
+
+    &--peace {
+      background-image: url(../../../images/sections-icon/peace@2x.png);
+      background-size: 26px;
+    }
+
+    &--peace {
+      background-image: url(../../../images/sections-icon/peace@2x.png);
+      background-size: 26px;
+    }
+
+    &--money {
+      background-image: url(../../../images/sections-icon/money@2x.png);
+    }
+
+    &--bulb {
+      background-image: url(../../../images/sections-icon/bulb@2x.png);
+    }
+
+    &--folder {
+      background-image: url(../../../images/sections-icon/folder@2x.png);
+    }
+
+    &--goal {
+      background-image: url(../../../images/sections-icon/goal@2x.png);
+    }
+  }
+}
