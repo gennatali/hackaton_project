@@ -1,0 +1,10 @@
+@media (min-width: 1400px) {
+  .structure-section {
+    padding-bottom: 115px;
+  }
+
+  .structure-section__article {
+    flex-basis: calc(25% - 22px);
+    padding: 65px 35px 50px;
+  }
+}
