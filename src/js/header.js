@@ -22,3 +22,11 @@ $('.header__scrolldown').on('click', function (event) {
         scrollTop: $('#introduction').offset().top
     }, 500);
 });
+
+$('.to-top').on('click', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $('#header').offset().top
+    }, 500);
+});
