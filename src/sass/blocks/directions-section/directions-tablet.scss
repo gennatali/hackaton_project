@@ -49,16 +49,17 @@
                 z-index: 4;
             }
         }
-    }
-}
 
-.empty-white-placeholder {
-    display: block;
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    top: calc(50% - 5px);
-    left: calc(50% - 5px);
-    background: #fafafa;
-    z-index: 3;
+    }
+
+    .empty-white-placeholder {
+        display: block;
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        top: calc(50% - 5px);
+        left: calc(50% - 5px);
+        background: #fafafa;
+        z-index: 3;
+    }
 }
