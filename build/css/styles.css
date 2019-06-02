@@ -1218,7 +1218,7 @@ ul {
     position: absolute;
     display: block;
     top: -28px;
-    left: -34px;
+    left: -14px;
   }
 
   .introduction-section__wrapper {
@@ -1646,6 +1646,7 @@ ul {
   }
 
   .structure-section {
+    padding-top: 115px;
     padding-bottom: 115px;
   }
 
