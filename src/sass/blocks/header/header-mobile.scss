@@ -35,6 +35,8 @@
   height: 30px;
   padding: 5px;
   background: 0%;
+  transform: translate(0, 0);
+  transition: transform 0.6s ease-in-out;
 }
 
 .burger__lines {
@@ -43,6 +45,8 @@
   height: 2px;
   background: $white-color;
   margin-bottom: 5px;
+  transform: translate(0);
+  transition: transform 0.5s ease-in;
 }
 
 .burger__lines:last-child {
@@ -97,12 +101,6 @@
   left: 0;
 }
 
-.nav__list-link::after,
-.nav__list-link::after  {
-  content: '';
-  margin-top: 15px;
-}
-
 .header-text {
   display: flex;
   flex-direction: column;
@@ -134,11 +132,11 @@
 }
 
 .burger--active .first__line  {
-  transform: rotate(45deg) translate(-5%, 180%);
+  transform: rotate(45deg) translate(2px, 3px);
 }
 
 .burger--active .third__line  {
-  transform: rotate(-45deg) translate(5%, -290%);
+  transform: rotate(-45deg) translate(2px, -3px);
 }
 
 .header--active {
