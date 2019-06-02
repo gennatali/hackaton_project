@@ -114,7 +114,9 @@
 
 .header__scrolldown {
   position: absolute;
+  text-decoration: none;
   left: 50%;
   bottom: 0;
   transform: translate(-50%, -150%);
+  cursor: pointer;
 }
