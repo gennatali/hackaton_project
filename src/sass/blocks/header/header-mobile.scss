@@ -120,3 +120,32 @@
   transform: translate(-50%, -150%);
   cursor: pointer;
 }
+
+.burger--active .second__line  {
+  height: 0;
+}
+
+.burger--active .first__line  {
+  transform: rotate(45deg) translate(-5%, 180%);
+}
+
+.burger--active .third__line  {
+  transform: rotate(-45deg) translate(5%, -290%);
+}
+
+.header--active {
+  .header__section {
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background-color: #824fe3;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(0);
+    z-index: 10;
+  }
+}
