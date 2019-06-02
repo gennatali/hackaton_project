@@ -73,7 +73,7 @@
     &-article:hover &__section-text {
         color: $white-color;
     }
-    
+
     &-article:hover &__text-inner {
         color: $white-color;
     }
@@ -81,4 +81,8 @@
     &-article:hover &__link {
         background-image: url(../images/sections-icon/short-white-arrow.png);
     }
+}
+
+.empty-white-placeholder {
+    display: none;
 }
