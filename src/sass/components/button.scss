@@ -9,8 +9,9 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 200ms linear;
 }
 
-.button:hover {
+.button:hover, .button:focus {
   background-color: $bg-button-hover;
 }
