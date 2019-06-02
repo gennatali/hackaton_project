@@ -1,0 +1,54 @@
+@media (min-width: 768px) {
+  .how-study {
+    padding-bottom: 66px;
+  }
+
+  .section-icon {
+    margin-right: 20px;
+  }
+
+  .title-wrapper {
+    margin-bottom: 47px;
+  }
+
+  .how-study__icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 22px;
+
+    &--bulb {
+      background-image: url(../../../images/sections-icon/green-bulb.png);
+      background-color: #dfeeec;
+    }
+  }
+
+  .how-study__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 53px;
+  }
+
+  .how-study__list-item {
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 36px;
+
+    &:nth-last-of-type(odd) {
+      margin-right: 20px;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.how-study__description {
+  font-size: 16px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .how-study__icon--bulb {
+    background-image: url(../../../images/sections-icon/green-bulb@2x.png);
+  }
+}
