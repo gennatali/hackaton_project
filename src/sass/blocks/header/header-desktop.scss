@@ -1,4 +1,4 @@
-@media  (min-width: 1300px) {
+@media  (min-width: 1400px) {
     .header {
         position: relative;
         background-image: url('../../../images/background_1300.jpg');
@@ -12,13 +12,14 @@
 
     .header__main-wrapper   {
         display: flex;
+        margin-bottom: 272px;
         justify-content: space-between;
     }
 
     .header__section    {
         display: flex;
         flex-direction: row;
-        align-items: flex-start;
+        align-items: center;
     }
 
     .nav {
@@ -28,14 +29,21 @@
     .nav__list  {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     .nav__list-link    {
         font-size: 18px;
     }
 
+    .nav__list-item {
+        margin-bottom: 0;
+      }
+      .nav__list-item:last-child {
+        margin-bottom: 0;
+      }
     .button--desktop    {
-        transform: translateY(-20%);
+        margin: 0;
     }
 }
 
