@@ -20,6 +20,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: flex-end;
+    position: static;
+    transform: translateX(0);
+    width: auto;
+    height: auto;
+    background-color: transparent;
   }
 
   .nav {

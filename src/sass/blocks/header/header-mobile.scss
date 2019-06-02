@@ -7,6 +7,7 @@
   min-width: 320px;
   min-height: 560px;
   padding: 16px 40px 40px;
+  overflow: hidden;
 }
 
 .logo {
@@ -14,10 +15,15 @@
   text-decoration: none;
 }
 
-.header__frist-wrapper {
-  position: sticky;
+.header__main-wrapper {
+  margin-bottom: 160px;
+}
+
+.header__first-wrapper {
+  position: relative;
   display: flex;
   justify-content: space-between;
+  z-index: 11;
 }
 
 .burger {
@@ -45,8 +51,17 @@
 
 .header__section {
   display: flex;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  background-color: #824fe3;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  transform: translateX(100%);
+  z-index: 10;
 }
 
 .nav__list {
@@ -99,7 +114,9 @@
 
 .header__scrolldown {
   position: absolute;
+  text-decoration: none;
   left: 50%;
   bottom: 0;
   transform: translate(-50%, -150%);
+  cursor: pointer;
 }
