@@ -1,3 +1,13 @@
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-50%);
+  }
+}
+
 .header {
   position: relative;
   background-image: url('../../../images/background_320.jpg');
@@ -35,7 +45,6 @@
   height: 30px;
   padding: 5px;
   background: 0%;
-  transform: translate(0, 0);
   transition: transform 0.6s ease-in-out;
 }
 
@@ -46,7 +55,7 @@
   background: $white-color;
   margin-bottom: 5px;
   transform: translate(0);
-  transition: transform 0.5s ease-in;
+  transition: transform 0.2s ease-in;
 }
 
 .burger__lines:last-child {
@@ -122,21 +131,10 @@
   position: absolute;
   text-decoration: none;
   left: 50%;
-  bottom: 0;
-  transform: translate(-50%, -150%);
+  bottom: 50px;
   cursor: pointer;
-}
-
-.burger--active .second__line  {
-  height: 0;
-}
-
-.burger--active .first__line  {
-  transform: rotate(45deg) translate(2px, 3px);
-}
-
-.burger--active .third__line  {
-  transform: rotate(-45deg) translate(2px, -3px);
+  animation: bounce 0.5s linear infinite;
+  animation-direction: alternate;
 }
 
 .header--active {
@@ -153,5 +151,17 @@
     justify-content: center;
     transform: translateX(0);
     z-index: 10;
+  }
+
+  .burger__lines:nth-child(2)  {
+    height: 0;
+  }
+
+  .burger__lines:nth-child(1)  {
+    transform: rotate(45deg) translate(2px, 3px);
+  }
+
+  .burger__lines:nth-child(3)  {
+    transform: rotate(-45deg) translate(2px, -3px);
   }
 }
