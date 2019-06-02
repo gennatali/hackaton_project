@@ -20,17 +20,20 @@ ul {
 
 .container {
   min-width: 320px;
-}
-
-.container__wrapper {
   padding: 0 20px;
 
   @media (min-width: 768px) {
     padding: 0 40px;
   }
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1400px) {
+    padding: 0 50px;
+  }
+}
+
+.container__wrapper {
+  @media (min-width: 1400px) {
     max-width: 1300px;
-    padding: 0 310px;
+    margin: 0 auto;
   }
 }
