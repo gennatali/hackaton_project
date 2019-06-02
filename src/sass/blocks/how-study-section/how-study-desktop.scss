@@ -1,0 +1,36 @@
+@media (min-width: 1400px) {
+  .how-study-wrapper {
+    background-color: #fafafa;
+  }
+
+  .how-study {
+    padding: 115px 0 83px;
+
+    &__list {
+      padding-left: 0;
+    }
+
+    &__list-item {
+      flex-basis: calc(25% - 20px);
+      margin: 32px 10px;
+
+      &:last-child {
+        margin-bottom: 32px;
+      }
+    }
+
+    &__icon {
+      width: 95px;
+      height: 95px;
+      margin-bottom: 36px;
+    }
+
+    &__description {
+      font-size: 18px;
+    }
+  }
+
+  .title-wrapper {
+    margin-bottom: 35px;
+  }
+}
