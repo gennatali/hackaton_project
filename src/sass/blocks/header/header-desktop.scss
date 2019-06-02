@@ -3,6 +3,7 @@
         position: relative;
         background-image: url('../../../images/background_1300.jpg');
         padding-top: 40px;
+        position: relative;
     }
 
     .burger {
@@ -15,9 +16,9 @@
     }
 
     .header__section    {
-        position: static;
         display: flex;
-        transform: none;
+        flex-direction: row;
+        align-items: flex-start;
     }
 
     .nav {
