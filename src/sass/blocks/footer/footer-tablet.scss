@@ -1,19 +1,27 @@
 @media (min-width: 768px) {
   .contact-information {
     padding: 55px 0 36px;
+
+    &__wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      padding-left: 34px;
+    }
+
+    &__inner {
+      margin-right: 44px;
+    }
   }
 
-  .contact-information__wrapper {
+  .to-top {
     display: flex;
-    flex-wrap: wrap;
-    padding-left: 34px;
+    justify-content: center;
+    align-items: center;
+    top: -27px;
+    right: 50px;
   }
 
-  .contact-information__inner {
-    margin-right: 44px;
-  }
-
-  .logo {
+  .logo-wrapper {
     flex-basis: 100%;
   }
 
@@ -25,14 +33,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 8px;
   }
 
   .copyright {
     padding: 18px 0;
-  }
 
-  .copyright__wrapper {
-    padding-left: 34px;
+    &__wrapper {
+      padding-left: 34px;
+    }
   }
 
   .copyright__list {

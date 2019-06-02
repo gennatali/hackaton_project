@@ -1,4 +1,5 @@
 .contact-information {
+  position: relative;
   padding: 42px 0 32px;
   background-color: $bg-footer-1;
 
@@ -7,8 +8,27 @@
   }
 }
 
-.logo {
-  display: inline-block;
+.to-top {
+  position: absolute;
+  display: none;
+  width: 54px;
+  height: 54px;
+  border-radius: 27px;
+  background-color: #333333;
+  box-shadow: 0px 7px 12px 0px rgba(51, 51, 51, 0.5);
+  transition: background-color 200ms linear;
+
+  &__icon {
+    fill: #fff;
+  }
+
+  &:hover, &:focus {
+    background-color: #404040;
+  }
+}
+
+
+.logo-wrapper {
   margin-bottom: 18px;
 }
 
@@ -95,8 +115,6 @@
   }
 }
 
-
-
 .copyright {
   padding: 22px 0;
   background-color: $bg-footer-2;
@@ -112,6 +130,11 @@
     font-size: 12px;
     line-height: 2;
     color: $copyright-color;
+    transition: color 200ms linear;
+
+    &:hover, &:focus {
+      color: #4c4c4d;
+    }
   }
 }
 
