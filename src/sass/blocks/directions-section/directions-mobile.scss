@@ -14,7 +14,7 @@
     }
 
     &__icon-point {
-        background-image: url("../../../images/sections-icon/first-point-icon.png");
+        background-image: url("../images/sections-icon/first-point-icon.png");
     }
 
     &-article {
@@ -52,7 +52,7 @@
         display: block;
         width: 19px;
         height: 13px;
-        background-image: url(../images/sections-icon/orange-arrow.png);
+        background-image: url("../images/sections-icon/orange-arrow.png");
     }
 
     &__text-inner--years {
@@ -79,6 +79,6 @@
     }
 
     &-article:hover &__link {
-        background-image: url(../images/sections-icon/short-white-arrow.png);
+        background-image: url("../images/sections-icon/short-white-arrow.png");
     }
 }
