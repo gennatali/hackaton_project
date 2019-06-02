@@ -9,10 +9,6 @@
   padding: 16px 40px 40px;
 }
 
-// .header__main-wrapper    {
-//     position: relative;
-// }
-
 .logo {
   display: block;
   text-decoration: none;
@@ -48,12 +44,6 @@
 }
 
 .header__section {
-  // display: none;
-  // position: absolute;
-  // top: 50%;
-  // left: 50%;
-  // transform: translate(-50%, -50%);
-  // z-index: 2;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -96,8 +86,8 @@
   align-items: center;
 }
 
-.main-title--color  {
-    color: $white-color;
+.main-title--color {
+  color: $white-color;
 }
 
 .header-text__submain {
@@ -112,5 +102,4 @@
   left: 50%;
   bottom: 0;
   transform: translate(-50%, -150%);
-  // margin-bottom: 10px;
 }
