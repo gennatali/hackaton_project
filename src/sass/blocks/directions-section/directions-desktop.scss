@@ -1,0 +1,23 @@
+@media (min-width: 1400px) {
+  .directions-sections {
+    padding-bottom: 110px;
+
+    &-article {
+      flex-basis: 25%;
+    }
+
+    &__article-wrapper {
+      position: relative;
+
+      &::before,
+      &::after {
+        content: none;
+        position: absolute;
+      }
+    }
+  }
+
+  .empty-white-placeholder {
+    display: none;
+  }
+}
